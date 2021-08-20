@@ -30,10 +30,10 @@ spec:
       # This container copy the PMC binary to /ptp/pmc
       - name: ose-ptp
         image: vran-quay-registry-quay-openshift-operators.apps.mgmtcluster.rtp.raleigh.ibm.com/olmnew/openshift4-ose-ptp:v4.6
-        command:
-          - /bin/bash
-          - -c
-          - cp /usr/sbin/pmc /ptp/pmc
+#        command:
+#          - /bin/bash
+#          - -c
+#          - cp /usr/sbin/pmc /ptp/pmc
         volumeMounts:
          - mountPath: /ptp
            name: cache-volume
