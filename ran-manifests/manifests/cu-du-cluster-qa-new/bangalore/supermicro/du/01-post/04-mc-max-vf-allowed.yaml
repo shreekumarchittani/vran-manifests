@@ -1,0 +1,17 @@
+---
+apiVersion: machineconfiguration.openshift.io/v1
+kind: MachineConfig
+metadata:
+  labels:
+    machineconfiguration.openshift.io/role: ran-du-bangalore-mc-max-vfs-allowed-du-supermicro00
+  name: 51-ran-du-bangalore-mc-max-vfs-allowed-du-supermicro00
+spec:
+  config:
+    storage:
+      files:
+      - contents:
+          source: data:text/plain;charset=utf-8;base64,OA==
+          verification: {}
+        filesystem: root
+        mode: 420
+        path: /sys/bus/pci/devices/0000:b8:00.0/sriov_totalvfs
