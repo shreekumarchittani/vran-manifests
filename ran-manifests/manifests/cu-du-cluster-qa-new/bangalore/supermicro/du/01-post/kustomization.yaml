@@ -17,3 +17,4 @@ resources:
   
   - 02-tuned-ran-du-bangalore-server-profile-du-supermicro00.yaml
   - 03-mc-fixrps-ran-du-bangalore-server-profile-du-supermicro00-pao-profile-du-supermicro00.yaml
+  - 04-mc-max-vf-allowed.yaml
