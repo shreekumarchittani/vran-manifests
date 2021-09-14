@@ -92,7 +92,7 @@ spec:
                         operator: Exists
                       containers:
                       - name: autosigner
-                        image: vran-quay-registry-quay-openshift-operators.apps.mgmtcluster.rtp.raleigh.ibm.com/olmlocal/autosigner:latest
+                        image: mirror-registry-vranmgmt1.fyre.ibm.com:5000/olmlocal/autosigner:latest
                       - name: autolabeller
-                        image: vran-quay-registry-quay-openshift-operators.apps.mgmtcluster.rtp.raleigh.ibm.com/olmlocal/autolabeller:latest
+                        image: mirror-registry-vranmgmt1.fyre.ibm.com:5000/olmlocal/autolabeller:latest
  
