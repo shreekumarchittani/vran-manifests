@@ -14,9 +14,4 @@ commonLabels:
 resources:
   - 00-hook-mcp-wait-job-mysore.yaml
   - 00-hook-sriovnodepolicy-wait-job-mysore.yaml
-  - 00-scc-privileged-job-mysore.yaml  
   - 01-Namespace.yaml
-  - 02-ConfigMap-Common.yaml
-  - 02-ConfigMap-InitScripts.yaml
-  - 02-ConfigMap-ProvIni-p1.yaml
-  - 03-Deployment-p1.yaml
