@@ -17,10 +17,10 @@ spec:
   #mtu: 1500
   numVfs: 32
   nicSelector:
-    vendor: "15b3"
-    deviceID: "1015"
+    vendor: "158b"
+    deviceID: "8086"
     pfNames:
-          - ens2f0#24-31
+          - ens1f1#24-31
     
 ---
 ###############################################################################
@@ -40,10 +40,10 @@ spec:
   #mtu: 1500
   numVfs: 32
   nicSelector:
-    vendor: "15b3"
-    deviceID: "1015"
+    vendor: "158b"
+    deviceID: "8086"
     pfNames:
-          - ens2f0#0-5
+          - ens1f1#0-5
     
 ---
 ###############################################################################
@@ -63,8 +63,8 @@ spec:
   #mtu: 1500
   numVfs: 32
   nicSelector:
-    vendor: "15b3"
-    deviceID: "1015"
+    vendor: "158b"
+    deviceID: "8086"
     pfNames:
-          - ens2f0#16-18
+          - ens1f1#16-18
     
