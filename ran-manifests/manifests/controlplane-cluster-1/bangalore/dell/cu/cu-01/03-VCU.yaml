@@ -71,6 +71,10 @@ spec:
                 set-name: ens3
                 match:
                   macaddress: 56:90:90:01:01:03
+                routes:
+                - to: 10.21.13.0/24
+                  via: 10.27.3.1
+                  metric: 3
           userData: |-
               #cloud-config
               hostname: rhocp-bangalore-cu-01
